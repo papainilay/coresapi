@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Mar 15 04:54:48 IST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0169-7e85-be54-00001cc61800 
+on database directory memory:C:\Users\g1mvfd\Downloads\corse-api-data\corse-api-data\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/g1mvfd/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_141-b15
+user.dir=C:\Users\g1mvfd\Downloads\corse-api-data\corse-api-data
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
