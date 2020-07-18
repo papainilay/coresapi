@@ -16,7 +16,7 @@ public class CourseService {
 												// one interface and autowired
 												// it.
 
-	public List<Course> getAllcourses(String topicId) {
+	public List<Course> getAllCourses(String topicId) {
 		List<Course> courses = new ArrayList<>();
 		courseRepository.findByTopicId(topicId).forEach(courses::add);
 		return courses;

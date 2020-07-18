@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TopicController {
+	
+	
 
 	@Autowired
 	private TopicService topicService; // it looks as a registry and find it out
@@ -69,7 +71,7 @@ public class TopicController {
 	@RequestMapping(method = RequestMethod.PUT, value = "/topics/{id}")
 	public void updateTopic(@RequestBody Topic topic, @PathVariable String id) {
 
-		topicService.updateTopic(topic, id);
+		topicService.updateTopic(id,topic);
 	}
 
 	@RequestMapping(method = RequestMethod.DELETE, value = "/topics/{id}")
